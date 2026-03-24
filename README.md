@@ -19,23 +19,77 @@ Although the project is implemented in a single script, it follows an MVC-style 
 - View: PortfolioView
 - Controller: PortfolioController
 
-## Installation
-Clone the repository and install the required dependencies:
+
+
+
+## Installation and Setup
+
+Follow these steps to run the application from scratch.
+
+### 1. Install prerequisites
+Make sure you have the following installed:
+- Python (version 3.9 or higher): https://www.python.org/downloads/
+- Git: https://git-scm.com/downloads
+
+### 2. Open a terminal
+
+On Windows:
+- Open **Command Prompt**, **PowerShell**, or **VS Code**
+- (Recommended) In VS Code: go to *Terminal → New Terminal*
+
+On Mac/Linux:
+- Open the **Terminal** application
+
+### 3. Navigate to the folder where you want to store the project
+
+For example, to go to your Desktop:
+
+Windows:
+cd Desktop
+
+Mac/Linux:
+cd Desktop
+
+### 4. Clone the repository
+
+Run:
+git clone https://github.com/alexander-zee/Portfolio-Tracker-asr.git
+
+This will download the project to your computer.
+
+### 5. Navigate into the project folder
+
+cd Portfolio-Tracker-asr
+
+### 6. (Optional but recommended) Create a virtual environment
+
+Windows:
+python -m venv venv
+venv\Scripts\activate
+
+Mac/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+### 7. Install required packages
 
 pip install -r requirements.txt
 
-## Requirements
-This project uses:
-- Python
-- NumPy
-- pandas
-- matplotlib
-- yfinance
-
-## Usage
-Run the application from the command line:
+### 8. Run the application
 
 python main.py
+
+
+
+
+
+
+
+
+
+
+
+
 
 After starting the program, the following menu is shown:
 1. Add asset
